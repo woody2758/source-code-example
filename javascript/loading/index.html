@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Loading - Example</title>
+		<script src="//code.jquery.com/jquery-1.11.3.min.js?v=1.0.0"></script>
+		<script src="shopping.js?v=1.0.0"></script>
+		<style>
+            #loading {
+                display: none; z-index: 10000; width: 100%; height: auto;min-height: 100%; text-align:center;  
+                padding-top: 150px; position: fixed; margin: 0 auto;background-color: #FFF; opacity: 0.5;
+            } 
+        </style>
+    </head>
+    <body>
+        
+        <div id="loading">
+            <img class="loading-img" src="loader.gif?v=1.0.0">
+        </div>
+        
+		<script>
+			Shopping.loading(5); // แสดง 5 วินาที
+		</script>
+		
+    </body>
+    
+</html>
