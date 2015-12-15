@@ -10,4 +10,4 @@ by DriveSoft.C/O
 
 # CSS.
 
-- Navbar: Example-1. [example-1](https://github.com/eakkabin/source-code-example/tree/master/css/navbar/example-1)
+- Navbar: [Example-1](https://github.com/eakkabin/source-code-example/tree/master/css/navbar/example-1)
